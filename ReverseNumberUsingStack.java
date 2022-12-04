@@ -2,6 +2,9 @@ import java.util.*;
 
 public class ReverseNumberUsingStack {
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Stack<Integer> ans = new Stack<Integer>();
@@ -23,5 +26,6 @@ public class ReverseNumberUsingStack {
             }
             System.out.println(reverse);
         }
+        sc.close();
     }
 }
